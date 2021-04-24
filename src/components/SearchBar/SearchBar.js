@@ -46,6 +46,8 @@ const SearchBar = (props) => {
   const handleSearch = (e) => {
     props.searchYelp(term, location, sortBy);
     e.preventDefault();
+    setTerm("");
+    setLocation("");
   };
 
   return (
@@ -54,8 +56,16 @@ const SearchBar = (props) => {
         <ul>{renderSortByOptions()}</ul>
       </div>
       <div className="SearchBar-fields">
-        <input onChange={handleTermChange} placeholder="Search Businesses" />
-        <input onChange={handleLocationChange} placeholder="Where?" />
+        <input
+          value={term}
+          onChange={handleTermChange}
+          placeholder="Search Businesses"
+        />
+        <input
+          value={location}
+          onChange={handleLocationChange}
+          placeholder="Where?"
+        />
       </div>
       <div className="SearchBar-submit">
         <a href="www.#.com" onClick={handleSearch}>

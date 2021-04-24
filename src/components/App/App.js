@@ -15,6 +15,7 @@ function App() {
   };
   return (
     <div className="App">
+      <h1>Apollo App</h1>
       <SearchBar searchYelp={searchYelp} />
       <BusinessList businesses={businesses} />
     </div>
