@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/apollo-app/static/css/main.6cd6c524.chunk.css",
+    "main.js": "/apollo-app/static/js/main.ba2fedc2.chunk.js",
+    "main.js.map": "/apollo-app/static/js/main.ba2fedc2.chunk.js.map",
+    "runtime-main.js": "/apollo-app/static/js/runtime-main.f6a0512d.js",
+    "runtime-main.js.map": "/apollo-app/static/js/runtime-main.f6a0512d.js.map",
+    "static/js/2.9df17515.chunk.js": "/apollo-app/static/js/2.9df17515.chunk.js",
+    "static/js/2.9df17515.chunk.js.map": "/apollo-app/static/js/2.9df17515.chunk.js.map",
+    "static/js/3.f51412c8.chunk.js": "/apollo-app/static/js/3.f51412c8.chunk.js",
+    "static/js/3.f51412c8.chunk.js.map": "/apollo-app/static/js/3.f51412c8.chunk.js.map",
+    "index.html": "/apollo-app/index.html",
+    "static/css/main.6cd6c524.chunk.css.map": "/apollo-app/static/css/main.6cd6c524.chunk.css.map",
+    "static/js/2.9df17515.chunk.js.LICENSE.txt": "/apollo-app/static/js/2.9df17515.chunk.js.LICENSE.txt",
+    "static/media/SearchBar.css": "/apollo-app/static/media/background_search_mobile.bfe57261.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f6a0512d.js",
+    "static/js/2.9df17515.chunk.js",
+    "static/css/main.6cd6c524.chunk.css",
+    "static/js/main.ba2fedc2.chunk.js"
+  ]
+}
